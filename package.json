@@ -1,0 +1,19 @@
+{
+  "name": "NLW6",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/VictorMello1993/NLW6.git",
+  "author": "usertest <emaildofulano@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev src/server.ts"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.12",
+    "ts-node-dev": "^1.1.6",
+    "typescript": "^4.3.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

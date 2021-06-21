@@ -1,0 +1,23 @@
+																		COMANDOS DO YARN
+																		
+																		
+yarn init --y => Inicializa o projeto com o arquivo package.json criado
+yarn add nomePacote => instala o pacote
+yarn tsc --init => Inicializa Typescript com arquovo tsconfig.json criado
+yarn tsc => Gera o arquivo JS correspondente ao código Typescript (Por padrão, o Node não entende a linguagem do Typescript)
+yarn run nomeScript => executa algum script especificado na propriedade "scripts" do package.json para executar a aplicação (ex: yarn run dev)
+
+
+ts-node-dev => Biblioteca responsável pela conversão automática de arquivos .ts em arquivos .js correspondentes para que o Node consiga interpretá-las.
+			   Seria uma alternativa ao nodemon, por exemplo.
+
+A partir da instalação desta dependência, no arquivo package.json, poderá criar um script de execução com o comando conforme a linha abaixo:
+
+ "scripts": {
+    "dev": "ts-node-dev src/server.ts"
+  }
+
+
+Biblioteca de tipagens:
+@types/express
+
