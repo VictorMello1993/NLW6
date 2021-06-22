@@ -9,7 +9,7 @@ import {router} from './routes' //Importando as rotas (endpoints) da aplicação
 const app = express();
 
 //Trabalhando com requisições com JSON
-app.use(express.json) 
+app.use(express.json()) 
 
 //Inicializando as rotas (endpoints)
 app.use(router)
