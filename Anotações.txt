@@ -16,8 +16,24 @@ A partir da instalação desta dependência, no arquivo package.json, poderá cr
  "scripts": {
     "dev": "ts-node-dev src/server.ts"
   }
+  
+ts-node-dev ./node_modules/typeorm/cli.js => Executa script para criação de migrations dentro do arquivo cli.js do TypeOrm
+
+yarn typeorm migration:create -n CreateUsers => Gera migration chamada CreateUsers
+yarn typeorm migration:run => Executa migration para ser replicado ao banco de dados
+yarn typeorm migration:revert => Executa a migration para reverter as alterações feitas no banco de dados
+yarn typeorm entity:create -n User => Cria uma pasta onde fica as entidades e cria uma classe de entidade chamada User dentro dessa mesma pasta
 
 
 Biblioteca de tipagens:
 @types/express
 
+
+
+//Tipos de parâmetros
+// Route Params => http://localhost:3000/produtos/7889897789987
+// Query Params => http://localhost:3000/produtos?name=teclado&description=tecladobom&preco=1.99
+/*Body Params => {"name": "teclado",
+                  "description": "teclado bom" 
+                 }*/
+//Não se utiliza corpo da requisição na requisição GET!! Somente POST ou PUT/PATCH
