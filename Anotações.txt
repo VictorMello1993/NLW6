@@ -37,3 +37,24 @@ Biblioteca de tipagens:
                   "description": "teclado bom" 
                  }*/
 //Não se utiliza corpo da requisição na requisição GET!! Somente POST ou PUT/PATCH
+
+
+Documentação sobre JWT:
+jwt.io
+
+Biblioteca para gerar tokens JWT:
+jsonwebtoken
+
+É preciso instalar também as tipageos do JWT:
+@types/jsonwebtoken -D
+
+Lembrando que as bibliotecas de tipagens devem ser instaladas no ambiente de desenvolvimento.
+
+Biblioteca de criptografia:
+bcryptjs
+
+Tipagens do bcryptjs
+@types/bcryptjs -D
+
+Site para gerar chave secreta:
+md5 hash generator
