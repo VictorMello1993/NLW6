@@ -58,3 +58,6 @@ Tipagens do bcryptjs
 
 Site para gerar chave secreta:
 md5 hash generator
+
+Biblioteca para customização de classes:
+class-transformer
