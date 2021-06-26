@@ -4,7 +4,7 @@ import 'express-async-errors'
 
 import './database' //Importando index.ts (padrão)
 import {router} from './routes' //Importando as rotas (endpoints) da aplicação
-
+import { ErrorHandler } from './utils/ErrorHandler';
 
 //Inicializando Express
 const app = express();
@@ -16,9 +16,11 @@ app.use(express.json())
 app.use(router)
 
 //Middleware de erro
-app.use((err: Error, req: Request, res: Response, next) => {
-  if(err instanceof Error){
-    return res.status(400).json({error: err.message}) //ERRO 400 => BAD REQUEST => DADOS INVÁLIDOS 
+app.use((err: ErrorHandler, req: Request, res: Response, next) => {
+  if(err instanceof Error) {
+    const {name, statusCode, message, description} = err
+
+    return res.status(statusCode).json({name, message, description})
   }
 
   return res.status(500).json({status: "error", message: 'Internal Server Error'})

@@ -32,5 +32,4 @@ export function ensureAuthenticated(req: Request, res: Response, next: NextFunct
   } catch (error) {
     return res.status(401).end()
   }
-  
 }
