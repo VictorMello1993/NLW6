@@ -69,8 +69,10 @@ Em seguida, executar o comando ```yarn dev``` para abrir o servidor
 
 ---
 
-<h2>:gear:Executando a API</h2>
-Para executar todas as rotas da API, clique no botão abaixo e importe o Workspace <strong>NLW06</strong>
+<h2>:gear:Abrindo a API</h2>
+Para abrir todas as rotas da API, clique no botão abaixo e importe o workspace sugerido.
 
+[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=NLW06&uri=https%3A%2F%2Fgist.githubusercontent.com%2FVictorMello1993%2F33e0bd480b8ff018d7f0d92a0a62eee0%2Fraw%2Fc3bf3e5ace10f41d78e58379f12ff14f77d8060b%2Fnlw06.json)
 
+Caso não tenha Insomnia instalado, baixe <a href="https://insomnia.rest/download">aqui</a>
 
