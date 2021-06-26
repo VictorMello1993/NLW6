@@ -52,14 +52,14 @@ git clone https://github.com/VictorMello1993/NLW6.git
 
 3 - Abra o terminal e instale todas as dependências do projeto
 
-##### NPM
+#### NPM
 ```
 npm install
 ```
 
 Em seguida, executar o comando ```npm run dev``` abrir o servidor
 
-##### Yarn
+#### Yarn
 Ou, se preferir, se tiver ```yarn``` instalado, executar o comando abaixo para instalar as dependências:
 ```
 yarn
