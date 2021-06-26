@@ -18,7 +18,7 @@
   <a href="#triangular_flag_on_postcomeçando">Começando</a> •
   <a href="#gearabrindo-a-api">Abrindo a API</a> •
   <a href="#oil_drumbanco-de-dados">Banco de dados</a> •
-  <a href="#possíveis-melhorias">Possíveis melhorias</a> •  
+  <a href="#possíveis-melhorias">Possíveis melhorias</a>
 </p>
 
 ---
