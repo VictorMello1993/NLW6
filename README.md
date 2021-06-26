@@ -90,3 +90,15 @@ Para visualizar todas as tabelas geradas pela aplicação, baixe o <a href="http
 
 ![Screenshot_1](https://user-images.githubusercontent.com/35710766/123498891-0a40ca00-d609-11eb-8bcf-0f7d035c12fc.png)
 
+---
+
+<h2>Possíveis melhorias</h2>
+- [ ] Implementar requisições de obter usuário e tag pelo id, e elogio por usuário remetente, destinatário e pelo id da tag
+- [ ] Trocar SQLite por outro banco de dados à escolha (MySQL, SQLServer, MongoDB, etc)
+- [ ] Verificar a possibilidade de implementar validações da API utilizando bibliotecas de terceiros
+- [ ] Criar uma classe personalizada para tratamento de exceções
+- [ ] Incluir testes unitários e de integração com Jest
+
+---
+## Versões do README
+<img src="https://user-images.githubusercontent.com/35710766/123499283-02365980-d60c-11eb-8731-9e9f42d300f0.png" alt="Bandeira do Brasil" width="22px"/> <a href="/README-ENUS.md">Inglês</a> | <img src="https://user-images.githubusercontent.com/35710766/123499278-ffd3ff80-d60b-11eb-85d5-156558ade93a.jpg" alt="Bandeira dos Estados Unidos" width="22px"/> <a href="/README.md">Português</a>
