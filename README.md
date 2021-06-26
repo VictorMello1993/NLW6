@@ -17,8 +17,8 @@
   <a href="#wrench-recursos">Recursos</a> •
   <a href="#triangular_flag_on_postcomeçando">Começando</a> •
   <a href="#gearabrindo-a-api">Abrindo a API</a> •
-  <a href="#gearabrindo-a-api">Banco de dados</a> •
-  <a href="#melhorias-a-implementar">Melhorias a implementar</a> •  
+  <a href="#oil_drumbanco-de-dados">Banco de dados</a> •
+  <a href="#melhorias-a-implementar">Possíveis melhorias</a> •  
 </p>
 
 ---
