@@ -95,7 +95,8 @@ Para visualizar todas as tabelas geradas pela aplicação, baixe o <a href="http
 ---
 
 ## Possíveis melhorias
-- [ ] Implementar requisições de obter usuário e tag pelo id, e elogio por usuário remetente, destinatário e pelo id da tag
+- [x] Implementar requisições de obter usuário e tag pelo id, e elogio por usuário remetente, destinatário e pelo id
+- [ ] Implementar requisições de obter elogios por usuário remetente, destinatário e pelo id da tag
 - [ ] Trocar SQLite por outro banco de dados à escolha (MySQL, SQLServer, MongoDB, etc)
 - [ ] Verificar a possibilidade de implementar validações da API utilizando bibliotecas de terceiros
 - [x] Criar uma classe personalizada para tratamento de exceções
