@@ -81,21 +81,24 @@ yarn dev
 <h2>:gear:Abrindo a API</h2>
 Para abrir todas as rotas da API, clique no botão abaixo e importe o workspace sugerido.
 
-[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=NLW06&uri=https%3A%2F%2Fgist.githubusercontent.com%2FVictorMello1993%2F33e0bd480b8ff018d7f0d92a0a62eee0%2Fraw%2Fc3bf3e5ace10f41d78e58379f12ff14f77d8060b%2Fnlw06.json)
+[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=NLW06&uri=https%3A%2F%2Fgist.githubusercontent.com%2FVictorMello1993%2Fb0668525b15c324b6e0c432245b29e84%2Fraw%2F57bb6033c45d57516c32cb75ce346c88ddeec309%2Fnlw06.json)
 
 Caso não tenha Insomnia instalado, baixe <a href="https://insomnia.rest/download">aqui</a>
 
 ---
 
 <h2>:oil_drum:Banco de dados</h2>
-Para visualizar todas as tabelas geradas pela aplicação, baixe o <a href="https://www.beekeeperstudio.io/">Beekeeper Studio</a>, software de gerenciamento de banco de dados. Neste projeto utilizamos SQLite, então para abrir a conexão com o banco de dados, basta procurar pelo arquivo <strong>database.sqlite</strong>. Teste para verificar se a conexão ocorrerá com êxito, e então, clique em <strong>Connect</strong>. Pronto, a conexão já está aberta, e poderá realizar as consultas.
+Para visualizar todas as tabelas geradas pela aplicação, baixe o <a href="https://www.beekeeperstudio.io/">Beekeeper Studio</a>, software de gerenciamento de banco de dados. Neste projeto utilizamos SQLite, então para abrir a conexão com o banco de dados, basta procurar pelo arquivo <strong>database.sqlite</strong>. Teste para verificar se a conexão ocorrerá com êxito, e então, clique em <strong>Connect</strong>. 
 
 ![Screenshot_1](https://user-images.githubusercontent.com/35710766/123498891-0a40ca00-d609-11eb-8bcf-0f7d035c12fc.png)
+
+Pronto, a conexão já está aberta, e poderá realizar as consultas.
 
 ---
 
 ## Possíveis melhorias
-- [ ] Implementar requisições de obter usuário e tag pelo id, e elogio por usuário remetente, destinatário e pelo id da tag
+- [x] Implementar requisições de obter usuário e tag pelo id, e elogios dos usuários remetentes e dos usuários destinatários pelo id
+- [ ] Implementar requisições de obter elogios por usuário remetente, destinatário e pelo id da tag
 - [ ] Trocar SQLite por outro banco de dados à escolha (MySQL, SQLServer, MongoDB, etc)
 - [ ] Verificar a possibilidade de implementar validações da API utilizando bibliotecas de terceiros
 - [x] Criar uma classe personalizada para tratamento de exceções
