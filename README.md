@@ -48,7 +48,7 @@ git clone https://github.com/VictorMello1993/NLW6.git
 ```
 
 
-2 - Abra VS Code e acesse <strong>NLW6</strong> como pasta raíz do projeto
+2 - Abra VS Code e abra a pasta <strong>NLW6</strong> como pasta raíz do projeto
 
 
 3 - Abra o terminal e instale todas as dependências do projeto
