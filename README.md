@@ -16,6 +16,8 @@
   <a href="#earth_americas-visão-geral">Visão geral</a> •
   <a href="#wrench-recursos">Recursos</a> •
   <a href="#triangular_flag_on_postcomeçando">Começando</a> •
+  <a href="#gearabrindo-a-api">Abrindo a API</a> •
+  <a href="#gearabrindo-a-api">Banco de dados</a> •
   <a href="#melhorias-a-implementar">Melhorias a implementar</a> •  
 </p>
 
