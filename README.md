@@ -88,9 +88,11 @@ Caso não tenha Insomnia instalado, baixe <a href="https://insomnia.rest/downloa
 ---
 
 <h2>:oil_drum:Banco de dados</h2>
-Para visualizar todas as tabelas geradas pela aplicação, baixe o <a href="https://www.beekeeperstudio.io/">Beekeeper Studio</a>, software de gerenciamento de banco de dados. Neste projeto utilizamos SQLite, então para abrir a conexão com o banco de dados, basta procurar pelo arquivo <strong>database.sqlite</strong>. Teste para verificar se a conexão ocorrerá com êxito, e então, clique em <strong>Connect</strong>. Pronto, a conexão já está aberta, e poderá realizar as consultas.
+Para visualizar todas as tabelas geradas pela aplicação, baixe o <a href="https://www.beekeeperstudio.io/">Beekeeper Studio</a>, software de gerenciamento de banco de dados. Neste projeto utilizamos SQLite, então para abrir a conexão com o banco de dados, basta procurar pelo arquivo <strong>database.sqlite</strong>. Teste para verificar se a conexão ocorrerá com êxito, e então, clique em <strong>Connect</strong>. 
 
 ![Screenshot_1](https://user-images.githubusercontent.com/35710766/123498891-0a40ca00-d609-11eb-8bcf-0f7d035c12fc.png)
+
+Pronto, a conexão já está aberta, e poderá realizar as consultas.
 
 ---
 
