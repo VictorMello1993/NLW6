@@ -42,7 +42,6 @@
 
 <h2>:triangular_flag_on_post:Começando</h2>
 
-
 1 - Clone o repositório
 ```
 git clone https://github.com/VictorMello1993/NLW6.git
