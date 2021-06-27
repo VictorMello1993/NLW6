@@ -29,7 +29,7 @@
 
 ---
 
-<h2>:wrench: Recursos</h2>
+<h2>:wrench: Features</h2>
 <ul>
   <li><a href="https://www.npmjs.com/package/typescript">Typescript</a></li>
   <li><a href="https://nodejs.org/en/">NodeJS</a></li>
