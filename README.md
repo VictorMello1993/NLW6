@@ -99,6 +99,7 @@ Pronto, a conexão já está aberta, e poderá realizar as consultas.
 ## Possíveis melhorias
 - [x] Implementar requisições de obter usuário e tag pelo id, e elogios enviados e recebidos pelos usuários pelo id
 - [ ] Implementar requisições de obter elogios por usuário remetente, destinatário e pelo id da tag
+- [x] Refatorar as rotas deixando-as isoladas em módulos por entidade
 - [ ] Trocar SQLite por outro banco de dados à escolha (MySQL, SQLServer, MongoDB, etc)
 - [ ] Verificar a possibilidade de implementar validações da API utilizando bibliotecas de terceiros
 - [x] Criar uma classe personalizada para tratamento de exceções
