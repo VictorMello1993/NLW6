@@ -24,7 +24,7 @@
 ---
 
 <h2>:earth_americas: Visão geral</h2>
-<p>Aplicação construída durante o evento NLW Together, promovido por <a href="https://rocketseat.com.br/">Rocketseat</a>. Esse projeto visa a demonstração da utilização de uma API da NLW Valoriza, com propósito de consolidar os conhecimentos de back-end do Node.js com Typescript. A aplicação consiste no gerenciamento de elogios de usuários, ou seja, um usuário logado no sistema poderá enviar mensagens de elogios uns aos outros. A única restrição é que somente usuários administradores que podem cadastrar as tags de cada elogio a ser feito por algum usuário.
+<p>Aplicação construída durante o evento NLW Together, promovido por <a href="https://rocketseat.com.br/">Rocketseat</a>. Esse projeto visa a demonstração da utilização de uma API da NLW Valoriza, com propósito de consolidar os conhecimentos de back-end com Node.js e Typescript. A aplicação consiste no gerenciamento de elogios de usuários, ou seja, um usuário logado no sistema poderá enviar mensagens de elogios uns aos outros. A única restrição é que somente usuários administradores que podem cadastrar as tags de cada elogio a ser feito por algum usuário.
 <p>
 
 ---
