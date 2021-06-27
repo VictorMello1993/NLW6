@@ -3,7 +3,7 @@ import express, {Request, Response, NextFunction} from 'express';
 import 'express-async-errors'
 
 import './database' //Importando index.ts (padrão)
-import {router} from './routes' //Importando as rotas (endpoints) da aplicação
+import {routes} from './routes' //Importando as rotas (endpoints) da aplicação
 import { ErrorHandler } from './utils/ErrorHandler';
 
 //Inicializando Express
@@ -13,7 +13,7 @@ const app = express();
 app.use(express.json()) 
 
 //Inicializando as rotas (endpoints)
-app.use(router)
+app.use(routes)
 
 //Middleware de erro
 app.use((err: ErrorHandler, req: Request, res: Response, next) => {

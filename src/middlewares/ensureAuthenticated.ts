@@ -19,7 +19,7 @@ export function ensureAuthenticated(req: Request, res: Response, next: NextFunct
   const [, token] = authToken.split(' ')
 
   try {
-    //Validar se o token é válido
+    //Validar se o token é válido    
     const {sub} = verify(token, jwtConfig.secret) as IPayload
     
     /*Se o token é válido, decodificá-lo e passar o id do usuário que foi preenchida do subject do token (sub) 

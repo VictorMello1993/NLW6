@@ -3,6 +3,7 @@ import { UsersRepository } from "../repositories/UsersRepository";
 import {compare} from "bcryptjs"
 import {sign} from "jsonwebtoken"
 import { ErrorHandler } from "../utils/ErrorHandler";
+import {jwtConfig} from '../configs/auth'
 
 interface IAuthenticateRequest{
   email: string;
@@ -44,10 +45,10 @@ class AuthenticateUserService{
     //A chave secreta pode ser gerada por vários tipos de algoritmos de criptografia como MD5, SHA256, entre outros
     const token = sign({
       email: user.email
-    }, "cce5186f4473aeefda6da0f6fcee6014", 
+    }, jwtConfig.secret, 
     {
       subject: user.id,
-      expiresIn: "1d" //1d => 1 dia 
+      expiresIn: jwtConfig.expiresIn
     })
 
     return token
