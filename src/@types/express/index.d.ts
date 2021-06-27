@@ -5,3 +5,6 @@ declare namespace Express{
     user_id: string;
   }
 }
+
+//OBS: não esquecer de habilitar a propriedade "typeRoots": "caminhoDasTipagens" no tsconfig.json
+//Ex: "typeRoots": ["./src/@types"]
