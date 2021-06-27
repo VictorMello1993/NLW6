@@ -42,7 +42,7 @@
 
 ---
 
-<h2>:triangular_flag_on_post:Começando</h2>
+<h2>:triangular_flag_on_post:Getting started</h2>
 
 1 - Clone the repository
 ```
@@ -78,7 +78,7 @@ yarn dev
 
 ---
 
-<h2>:gear:Abrindo a API</h2>
+<h2>:gear:Opening API</h2>
 To open all of the API routes, click on the button below and import the suggested workspace:
 
 [![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=NLW06&uri=https%3A%2F%2Fgist.githubusercontent.com%2FVictorMello1993%2Fb0668525b15c324b6e0c432245b29e84%2Fraw%2F57bb6033c45d57516c32cb75ce346c88ddeec309%2Fnlw06.json)
