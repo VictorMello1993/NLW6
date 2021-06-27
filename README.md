@@ -24,7 +24,7 @@
 ---
 
 <h2>:earth_americas: Visão geral</h2>
-<p>Aplicação construída durante o evento NLW Together, promovido por <a href="https://rocketseat.com.br/">Rocketseat</a>. Esse projeto visa a demonstração da utilização de uma API da NLW Valoriza, com propósito de consolidar os conhecimentos de back-end do Node.js com Typescript. A aplicação consiste no gerenciamento de elogios de usuários, ou seja, um usuário logado no sistema poderá enviar mensagens de elogios uns aos outros. A única restrição é que somente usuários administradores que podem cadastrar as tags de cada elogio a ser feito por algum usuário.
+<p>Aplicação construída durante o evento NLW Together, promovido por <a href="https://rocketseat.com.br/">Rocketseat</a>. Esse projeto visa a demonstração da utilização de uma API da NLW Valoriza, com propósito de consolidar os conhecimentos de back-end com Node.js e Typescript. A aplicação consiste no gerenciamento de elogios de usuários, ou seja, um usuário logado no sistema poderá enviar mensagens de elogios uns aos outros. A única restrição é que somente usuários administradores que podem cadastrar as tags de cada elogio a ser feito por algum usuário.
 <p>
 
 ---
@@ -97,7 +97,7 @@ Pronto, a conexão já está aberta, e poderá realizar as consultas.
 ---
 
 ## Possíveis melhorias
-- [x] Implementar requisições de obter usuário e tag pelo id, e elogios dos usuários remetentes e dos usuários destinatários pelo id
+- [x] Implementar requisições de obter usuário e tag pelo id, e elogios enviados e recebidos pelos usuários pelo id
 - [ ] Implementar requisições de obter elogios por usuário remetente, destinatário e pelo id da tag
 - [ ] Trocar SQLite por outro banco de dados à escolha (MySQL, SQLServer, MongoDB, etc)
 - [ ] Verificar a possibilidade de implementar validações da API utilizando bibliotecas de terceiros
